@@ -5,5 +5,5 @@ services:
     build:
       context: ./
     ports:
-      - "9000:9000"
+      - "127.0.0.1:6095:9000"
     restart: always
